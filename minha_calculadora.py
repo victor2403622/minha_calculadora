@@ -11,11 +11,10 @@ def main():
         y = int(input('y? '))
         s = soma(x, y)
         print(f' Soma = {s}')
-    else:
-        calculo == "sub"
+    elif calculo == "sub":
         x = int(input('x? '))
         y = int(input('y? '))
         sub = subtracao(x, y)
         print(f' Subtração = {sub}')
-
+    
 main()
