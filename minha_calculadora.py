@@ -13,12 +13,12 @@ def main():
         x = int(input('x? '))
         y = int(input('y? '))
         s = soma(x, y)
-        print(f' Soma = {s}')
+        print(f' a Soma é: {s}')
     elif calculo == "sub":
         x = int(input('x? '))
         y = int(input('y? '))
         sub = subtracao(x, y)
-        print(f' Subtração = {sub}')
+        print(f' A subtração é: {sub}')
     elif calculo == "multi":
         x = int(input("x? "))
         y = int(input('y? '))
