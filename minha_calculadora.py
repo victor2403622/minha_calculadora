@@ -16,5 +16,6 @@ def main():
         y = int(input('y? '))
         sub = subtracao(x, y)
         print(f' Subtração = {sub}')
-    
+    else:
+        print("Operação inválida.")
 main()
